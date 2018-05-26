@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="../fluffy-octo-palm-tree/fonts/ProximaNova-Regular.otf" rel="stylesheet">
+    <link rel="stylesheet" href="assets/basic-layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.js"
+    integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+    crossorigin="anonymous"></script>
+    <title>fluffy-octo-palm-tree</title>
+  </head>
+  <body>
+      
+      
+    <header>
+        <button type='button' onclick="openNav()" class="menu" id="menubutton"><i class="fa fa-bars"></i></button>
+        <p>Reminders</p>
+    </header>
+      
+      
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <ul>
+        <li>
+         <a>Home</a>
+       </li>
+       <li>
+        <a>profile</a>
+       </li>
+       <li>
+        <a>month</a>
+       </li>
+       <li>
+        <a>week</a>
+       </li>
+    </ul>
+   </div>
+      
+      <div id="date">
+          <p>◀</p>
+          <h1>
+              Sunday, May 26th
+          </h1> 
+         <p>▶</p>
+      </div>
+      
+      
+      
+      
+      
+      
+    <div id="main" class="container">
+        
+      <div id="events">
+          <h2>
+              events
+          </h2>
+          
+          <ul class="event">
+              <li id="blue">Coffee</li>
+              <li id="pink">Tea</li>
+              <li id="purple">Milk</li>
+              <li id="pink">Coffee</li>
+              <li id="blue">Tea</li>
+              <li id="green">Milk</li>
+              <li id="pink">Coffee</li>
+              <li id="blue">Tea</li>
+              <li id="purple">Milk</li>
+          </ul>
+      </div>
+        
+        
+        
+        
+        
+      <div id="activities">
+          <h2>
+            activities
+          </h2>
+        
+          <ul class="activity" id="urgent">
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Milk</li>
+          </ul>
+          
+          <ul class="activity" id="moderate">
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Milk</li>
+          </ul>
+          
+          <ul class="activity" id="casual">
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Milk</li>
+          </ul>
+          
+      </div>
+        
+        
+        
+        
+        
+        
+        
+      <div class="box">
+        <div id="whatshappening">
+          <h2>
+            weather
+          </h2>
+            
+            <div class="weather">
+                look at this weather
+            </div>
+            
+        </div>
+          
+        <div id="bag">
+          <h2>
+            what to pack
+          </h2>
+            <div class="bag">
+                look at this bag
+            </div>
+        </div> 
+      </div>
+        
+    </div>
+
+
+   <script>
+   /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+   function openNav() {
+       document.getElementById("mySidenav").style.width = "250px";
+       document.getElementById("main").style.marginLeft = "250px";
+       //document.getElementById("fool").style.marginLeft = "250px";
+       document.getElementById("menubutton").style.left = "300px";
+   }
+
+   /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+   function closeNav() {
+       document.getElementById("mySidenav").style.width = "0";
+       document.getElementById("main").style.marginLeft = "0";
+       //document.getElementById("fool").style.marginLeft = "0";
+       document.getElementById("menubutton").style.left = "50px";
+   }
+   </script>
+
+
+  </body>
+  </html>

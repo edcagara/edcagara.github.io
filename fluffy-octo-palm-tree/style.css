@@ -1,0 +1,237 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+   height:100%;
+    font-family: sans-serif;
+}
+
+header{
+  background-color: #f1f2f2;
+  color: black;
+  width: 100%;
+  height: 40px;
+  transition: margin-left .5s;
+      padding: 1px;
+    margin-bottom: 30px;
+}
+
+header p {
+    padding: 0 70px;
+}
+
+p {
+  font-size: 14px;
+  color: black;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0 50px;
+    display:inline;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+/** MISC **/
+
+#date {
+    text-align: center;
+}
+
+#date p {
+    font-size: 9px;
+    display: inline;
+}
+
+
+
+
+
+
+
+/** MENU **/
+
+.menubutton {
+    height: 60px;
+}
+
+.menu{
+  float:left;
+  background-color: #e6e7e8;
+  top: 0px;
+  left: 50px;
+  transition: left .5s;
+  z-index: 1000;
+  height: 40px;
+  width: 40px;
+  border: none;
+}
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #003e90; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    color: white;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+/** CONTENT **/
+
+#main {
+    transition: margin-left .5s;
+    padding-top: 0px;
+    background-color: white;
+    height: 100%
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* fraction*/
+  height:80%;
+  grid-column-gap: 5%;
+}
+
+#events {
+  margin: 25px;
+  padding: 0px;
+  height:80%;
+}
+
+#purple {
+    border-left: 8px solid;
+    border-color: purple;
+}
+
+#blue {
+    border-left: 8px solid;
+    border-color: #3fc0fc;
+}
+
+#green {
+    border-left: 8px solid;
+    border-color: #8dc63f;
+}
+
+#pink {
+    border-left: 8px solid;
+    border-color: #fc5051;
+}
+
+
+
+
+
+
+
+#activities {
+  margin: 25px;
+  padding: 0px;
+  height:80%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 14px;
+}
+
+li {
+    margin: 10px 0;
+    padding: 20px;
+}
+
+
+.event li {
+    background-color: #e6e7e8;
+}
+
+
+
+#urgent li {  
+    background-color: #fc5051;
+}
+
+#moderate li {   
+    background-color: #ffb337;
+}
+
+#casual li {   
+    background-color: #3fc0fc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#whatshappening {
+  margin: 25px;
+  padding-top: 1px;
+  height:10%;
+  margin-bottom:30px;
+}
+
+.weather {
+    background-color: #e6e7e8;
+    margin: 10px 0;
+    padding: 20px;
+    font-size: 14px;
+}
+
+#bag {
+  margin: 25px;
+  padding-top: 1px;
+  height:50%;
+}
+
+.bag {
+    background-color: #e6e7e8;
+    margin: 10px 0;
+    padding: 20px;
+    font-size: 14px;
+    height: 90%;
+}
